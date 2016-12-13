@@ -1,0 +1,9 @@
+{
+	"url": "https://foosball-table-scheduler.herokuapp.com/",
+	"fieldColor": {
+		"HOME_FIELD_COLOR": "BLUE",
+		"AWAY_FIELD_COLOR": "WHITE"
+	},
+	"rollingStatsDays": 7,
+	"server": "https://slack-foosball-bot.herokuapp.com/"
+}

@@ -1,0 +1,40 @@
+{
+  "name": "slack-foosball-bot",
+  "version": "0.0.0",
+  "engines": {
+    "node": "^5.0.0"
+  },
+  "main": "index.js",
+  "author": "Justin Rubin",
+  "license": "MIT",
+  "scripts": {
+    "client": "node client.js",
+    "server": "node server.js"
+  },
+  "dependencies": {
+    "@slack/client": "^2.3.0",
+    "async": "^2.0.0-rc.3",
+    "body-parser": "^1.4.3",
+    "express": "^4.13.3",
+    "lowdb": "^0.12.5",
+    "lodash": "^4.11.2",
+    "request": "2.69.0",
+    "slacky": "*",
+    "slacky-middleware-white-black-list": "^1.0.0",
+    "underscore": "1.8.3"
+  },
+  "devDependencies": {
+    "eslint": "^2.6.0",
+    "forever": "^0.15.1",
+    "nodemon": "^1.9.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jsrubin/slack-foosball-bot.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jsrubin/slack-foosball-bot/issues"
+  },
+  "homepage": "https://github.com/jsrubin/slack-foosball-bot#readme",
+  "description": ""
+}
